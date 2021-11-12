@@ -21,8 +21,12 @@ express myExpressApp --view pug
 cd myExpressApp
 npm install
 
+### start nodejs
 npm start
 DEBUG=myexpressapp:* npm start
+
+#### kill port
+npx kill-port 5000
 
 #### Debug:$ nano launch.js
 ``` json
