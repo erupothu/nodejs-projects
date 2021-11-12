@@ -22,6 +22,7 @@ cd myExpressApp
 npm install
 
 npm start
+DEBUG=myexpressapp:* npm start
 
 #### Debug:$ nano launch.js
 ``` json
